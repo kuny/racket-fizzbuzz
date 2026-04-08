@@ -81,9 +81,9 @@ Return a list containing the results of applying the following rules to values f
 ## Why
 
 FizzBuzz is a simple problem, but
-    •    Writing it as conditional branching
-    •    Writing it as data transformation
-    •    Writing it as rule description
+- Writing it as conditional branching
+- Writing it as data transformation
+- Writing it as rule description
 
 is a topic where these differences tend to become apparent.
 
@@ -92,9 +92,9 @@ aiming to make it as close to a “rule description” as possible.
 
 
 FizzBuzz は小さな問題ですが、
-	•	条件分岐として書く
-	•	データ変換として書く
-	•	ルール記述として書く
+- 条件分岐として書く
+- データ変換として書く
+- ルール記述として書く
 
 の違いが出やすい題材です。
 
