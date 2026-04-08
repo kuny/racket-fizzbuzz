@@ -66,17 +66,17 @@ racket main.rkt
 ## Output
 
 Return a list containing the results of applying the following rules to values from 1 to 100:
-    •    Multiples of 15 → FizzBuzz
-    •    Multiples of 3 → Fizz
-    •    Multiples of 5 → Buzz
-    •    All others → The number itself
+- Multiples of 15 → FizzBuzz
+- Multiples of 3 → Fizz
+- Multiples of 5 → Buzz
+- All others → The number itself
 
 
 1 から 100 までの値に対して、次のルールを適用した結果をリストとして返します。
-	•	15 の倍数 → FizzBuzz
-	•	3 の倍数 → Fizz
-	•	5 の倍数 → Buzz
-	•	それ以外 → 数値そのもの
+- 15 の倍数 → FizzBuzz
+- 3 の倍数 → Fizz
+- 5 の倍数 → Buzz
+- それ以外 → 数値そのもの
 
 ## Why
 
