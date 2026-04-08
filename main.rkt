@@ -1,14 +1,10 @@
 #lang racket
 
-(module+ main
-
-  (for ([i (in-range 1 101)])
-    (displayln
-      (match (list (remainder i 3) (remainder i 5))
-        ['(0 0) "FizzBuzz"]
-        ['(0 _) "Fizz"]
-        ['(_ 0) "Buzz"]
-        [_      i])))
-
-)
+(stream->list
+  (stream-map (lambda (x)
+                (cond ((zero? (modulo x 15)) 'FizzBuzz)
+                      ((zero? (modulo x 3)) 'Fizz)
+                      ((zero? (modulo x 15)) 'Buzz)
+                      (else x)))
+              (in-range 1 101)))
 
